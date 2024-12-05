@@ -199,7 +199,7 @@ class _MonthYearPickerDialogState extends State<MonthYearPickerDialog> {
         ? textTheme.headlineSmall?.copyWith(color: onPrimarySurface)
         : textTheme.headlineMedium?.copyWith(color: onPrimarySurface);
 
-    final Widget actions = Container(
+    final actions = Container(
       alignment: AlignmentDirectional.centerEnd,
       constraints: const BoxConstraints(minHeight: 52.0),
       padding: const EdgeInsets.symmetric(horizontal: 8.0),
@@ -232,7 +232,7 @@ class _MonthYearPickerDialogState extends State<MonthYearPickerDialog> {
         TextButton(
           style: TextButton.styleFrom(
             padding: const EdgeInsetsDirectional.fromSTEB(
-              32.0,
+              22.0,
               24.0,
               8.0,
               24.0,
